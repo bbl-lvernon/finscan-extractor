@@ -5,10 +5,8 @@
       "esModuleInterop": true,
       "target": "es6",
       "moduleResolution": "node",
+      "allowSyntheticDefaultImports": true,
       "sourceMap": true,
-      "paths": {
-        "@env/*": ["environments/*"]
-      },
       "outDir": "dist"
     },
     "lib": ["es2015"]

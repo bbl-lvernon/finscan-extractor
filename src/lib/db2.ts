@@ -1,7 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 //const db2 = require("ibm_db");
-require('dotenv-safe').config();
 export class bbankDB2 {
     connectionString: string = ``;
     constructor() {

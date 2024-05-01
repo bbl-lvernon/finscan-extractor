@@ -3,5 +3,4 @@ input
 output
 logs
 /dist
-.env
 typings/
