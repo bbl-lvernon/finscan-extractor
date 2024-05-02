@@ -63,9 +63,8 @@ constructor() {}
         try{
         //await this.prepareLogger();
         if(BBILMODE == true){
-        logger.info('------ *BBL DOMESTIC* MODE INITIATED --------');}else{
-        logger.info('------ *BBIL INTERNATIONAL* MODE INITIATED --');
-        }
+            logger.info('----- *BBIL INTERNATIONAL* MODE INITIATED ---');}else{
+            logger.info('----- *BBL DOMESTIC* MODE INITIATED ---------');}
         logger.info('------ FINSCAN EXTRACT PROCESS STARTED ------');
         logger.info('------ 1/3 openFile PROCESS STARTED ---------');
         await this.openFile();
