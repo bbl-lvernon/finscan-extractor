@@ -45,9 +45,9 @@ What does it do?
 
 * Open DB connection
 * Retrieve payload from the FINSCAN_CUSTINFO view in the database. This is basically all active cients.
-* Populate file with payload, separating each field with pipes (|)
-* Writes data to ./output/FinScan_'YYYYMMDD'.out
-* Writes a log file to ./log
+* Populate file with payload, separating each field with pipes (|).
+* Writes data to ./output/FinScan_'YYYYMMDD'.out.
+* Writes a log file to ./log.
 
 A more comprehensive profile of this can be found here: 
 ```sh
