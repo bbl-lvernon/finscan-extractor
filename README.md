@@ -49,7 +49,7 @@ What does it do?
 * Writes data to ./output/FinScan_'YYYYMMDD'.out
 * Writes a log file to ./log
 
-* A more comprehensive profile of this can be found here: 
+A more comprehensive profile of this can be found here: 
 ```sh
 \\mainw2k\isd\FinscanExtractor Specification
 ```
@@ -87,10 +87,13 @@ To get a local copy up and running follow these simple example steps.
    ```sh
    npm install
    ```
-3. Ensure DBs are fully operational. 
+3. Start the app
    ```sh
    npm start
    ```
+
+   Note:
+   Ensure your machine has proper authority to access Database contents and ability to make changes to your filesystem.
 
 
 
